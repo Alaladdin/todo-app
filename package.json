@@ -1,0 +1,17 @@
+{
+  "private": true,
+  "scripts": {
+    "server": "nodemon ./app/index.js",
+    "lint": "eslint ./",
+    "lint:report": "eslint --format gitlab ./"
+  },
+  "author": "Alaladdin",
+  "license": "ISC",
+  "devDependencies": {
+    "eslint": "^7.15.0",
+    "eslint-config-airbnb-base": "^14.2.1",
+    "eslint-formatter-gitlab": "^2.1.0",
+    "eslint-plugin-import": "^2.22.1",
+    "nodemon": "^2.0.7"
+  }
+}
